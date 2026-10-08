@@ -1,0 +1,6 @@
+.local-python/
+.sites-runtime/
+*.tar.gz
+assets/*.mov
+dist/assets/*.mov
+
