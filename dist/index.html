@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="家事や育児のすきま時間に、AIとAmazon Merch on Demandを使ってTシャツ販売を始めるための初心者向けガイド。">
+  <title>AI×Amazon おうちTシャツ販売スタートガイド｜みな</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e88f80'/%3E%3Cpath d='M18 18l9-5h10l9 5 7 10-9 6-4-6v23H24V28l-4 6-9-6z' fill='white'/%3E%3C/svg%3E">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config={theme:{extend:{colors:{ink:'#493e3c',coral:'#e88f80',deep:'#d87368',cream:'#fff8f3',blush:'#fbe9e3',gold:'#d4a94f',line:'#06c755'},fontFamily:{sans:['Noto Sans JP','sans-serif'],round:['Zen Maru Gothic','sans-serif']}}}}
+  </script>
+  <style>
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8efea;color:#493e3c;font-family:'Noto Sans JP',sans-serif}.paper{background-image:radial-gradient(#efc9bf 1px,transparent 1px);background-size:18px 18px}.marker{background:linear-gradient(transparent 62%,#ffe1a8 62%)}.prompt{white-space:pre-wrap;word-break:break-word}.copy-toast{transition:.25s}.float{animation:float 2.4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-5px)}}.pulse{animation:pulse 1.8s ease-in-out infinite}@keyframes pulse{50%{transform:scale(1.02)}}
+  </style>
+</head>
+<body>
+<div id="toast" class="copy-toast fixed z-50 top-4 left-1/2 -translate-x-1/2 -translate-y-3 opacity-0 pointer-events-none bg-ink text-white text-xs font-bold px-5 py-3 rounded-full shadow-xl">コピーしました ✓</div>
+<main id="top" class="max-w-[680px] min-h-screen mx-auto bg-white shadow-2xl overflow-hidden">
+
+  <header class="paper relative px-5 pt-10 pb-9 text-center overflow-hidden">
+    <div class="absolute -top-12 -right-12 w-40 h-40 rounded-full bg-blush"></div>
+    <div class="absolute top-24 -left-10 w-28 h-28 rounded-full bg-[#fff0c9]"></div>
+    <div class="relative">
+      <span class="inline-flex items-center gap-1.5 bg-deep text-white text-[11px] font-black tracking-wider px-4 py-1.5 rounded-full shadow">LINE登録者限定・保存版</span>
+      <p class="mt-5 text-sm font-bold text-deep">家事と育児の合間に、商品を1つ形にする</p>
+      <h1 class="font-round text-[28px] sm:text-4xl font-black leading-[1.35] mt-2 text-ink">
+        AI×Amazon<br><span class="text-deep marker">おうちTシャツ販売</span><br>スタートガイド
+      </h1>
+      <p class="mt-4 text-xs sm:text-sm leading-7 font-bold text-gray-600">在庫を家に置かず、発送作業もなし。<br>デザイン経験ゼロから始める4STEP</p>
+      <div class="mt-6 bg-white/85 backdrop-blur rounded-2xl border border-white shadow-sm p-3 flex items-center gap-3 max-w-sm mx-auto text-left">
+        <img src="assets/mina-avatar.png" alt="みな" class="w-12 h-12 rounded-full object-cover border-2 border-white shadow">
+        <div><p class="text-[10px] text-gray-500 font-bold">AI×SNSで在宅収入を叶える主婦</p><p class="font-black text-sm">みな <span class="font-normal text-[10px] text-deep">@mina_ai_fukugyo</span></p></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="px-6 py-9">
+    <p class="text-center text-sm font-black text-deep">こんな気持ち、ありませんか？</p>
+    <div class="mt-5 space-y-3 text-sm leading-6">
+      <div class="rounded-2xl bg-cream border border-blush p-4 flex gap-3"><span>💭</span><p>美容院や洋服に使うお金を、<strong>つい後回しにしてしまう</strong></p></div>
+      <div class="rounded-2xl bg-cream border border-blush p-4 flex gap-3"><span>💭</span><p>在宅ワークに興味はあるけれど、<strong>何から始めればいいか分からない</strong></p></div>
+      <div class="rounded-2xl bg-cream border border-blush p-4 flex gap-3"><span>💭</span><p>パソコンやデザインに自信がなくて、<strong>自分には無理だと思ってしまう</strong></p></div>
+      <div class="rounded-2xl bg-cream border border-blush p-4 flex gap-3"><span>💭</span><p>まとまった時間が取れず、<strong>また今度…で止まっている</strong></p></div>
+    </div>
+  </section>
+
+  <section class="px-6 pb-10">
+    <div class="rounded-3xl bg-gradient-to-br from-blush to-cream p-6 border border-[#f2d5cc]">
+      <p class="text-xs font-black text-deep tracking-wider">MY STORY</p>
+      <h2 class="font-round text-xl font-black leading-8 mt-2">私もずっと、<br>「仕方ない」と思っていました。</h2>
+      <div class="mt-4 text-[13px] leading-7 space-y-3">
+        <p>専業主婦だった頃は、自分のために何かを買うたびに「これ欲しいんだけど…」と夫に話すのが苦手でした。</p>
+        <p>自分でも稼ぎたくて、物販やハンドメイド、ポスティングなどに挑戦。でも、時間を使ったわりに結果につながらず、家には売れなかった商品だけが残りました。</p>
+        <p>そんな私の転機になったのがAIです。最初は、子どもの夜泣きについて聞くくらいしか使えませんでした。それでも少しずつ仕事に取り入れ、今ではAIを活用した在宅ワークで月30万円ほどの収入を安定して得られるようになりました。</p>
+      </div>
+      <p class="mt-5 bg-white rounded-2xl p-4 text-sm font-black leading-7 text-center shadow-sm">だからこのガイドは、<br><span class="text-deep">「難しいことは苦手。でも一歩進みたい」</span><br>というママのために作りました。</p>
+      <p class="mt-3 text-[10px] text-gray-500 text-center">※誰でも簡単に収益が出るという内容ではありません。成果にはリサーチ・改善・継続が必要です。</p>
+    </div>
+  </section>
+
+  <section class="bg-ink text-white px-6 py-9 text-center">
+    <p class="text-[11px] font-bold text-[#ffd8cf] tracking-wider">AMAZON MERCH ON DEMAND</p>
+    <h2 class="font-round text-xl font-black mt-2">在庫も発送も抱えない<br>「注文が入ってから作る」仕組み</h2>
+    <div class="grid grid-cols-3 gap-2 mt-6">
+      <div class="bg-white/10 rounded-2xl p-3"><p class="text-2xl">📦</p><p class="text-[11px] font-bold mt-2">在庫を<br>抱えない</p></div>
+      <div class="bg-white/10 rounded-2xl p-3"><p class="text-2xl">👕</p><p class="text-[11px] font-bold mt-2">Amazonが<br>製造</p></div>
+      <div class="bg-white/10 rounded-2xl p-3"><p class="text-2xl">🚚</p><p class="text-[11px] font-bold mt-2">梱包・発送も<br>お任せ</p></div>
+    </div>
+    <p class="text-xs leading-6 text-white/75 mt-5">自分が担当するのは、テーマを考え、デザインを用意し、商品情報を登録するところ。売れた場合は、販売条件に応じたロイヤリティを受け取る仕組みです。</p>
+    <a href="https://merch.amazon.com/landing" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-[11px] font-bold underline text-[#ffd8cf]">Amazon公式ページを確認する →</a>
+  </section>
+
+  <section class="px-6 py-10">
+    <div class="text-center"><span class="bg-blush text-deep font-black text-[10px] px-3 py-1 rounded-full">30分から始める</span><h2 class="font-round text-2xl font-black mt-3">最初の1商品を作る4STEP</h2></div>
+
+    <article class="mt-9">
+      <div class="flex items-center gap-3"><span class="w-10 h-10 rounded-full bg-deep text-white grid place-items-center font-black">1</span><div><p class="text-[10px] font-black text-deep">STEP 1</p><h3 class="font-round text-lg font-black">暮らしの中からテーマを探す</h3></div></div>
+      <p class="mt-4 text-sm leading-7">いきなり「売れるデザイン」を当てようとしなくて大丈夫。自分がよく知っている暮らし、趣味、季節行事から、欲しい人が想像できるテーマを出します。</p>
+      <div class="mt-4 bg-cream rounded-2xl p-4 text-xs leading-6"><strong>例：</strong>コーヒー好き／ガーデニング／読書／犬種・猫種／季節のイベント／日本の食べ物／ママ友に伝わる短い言葉</div>
+      <div class="mt-5 rounded-2xl border-2 border-blush overflow-hidden">
+        <div class="bg-blush px-4 py-3 flex justify-between items-center"><p class="text-xs font-black">コピペ用｜テーマ発見プロンプト</p><button onclick="copyPrompt('prompt1')" class="bg-deep text-white text-[10px] font-black px-3 py-1.5 rounded-full">コピー</button></div>
+        <pre id="prompt1" class="prompt p-4 text-[11px] leading-6 bg-white">あなたは、プリント・オン・デマンド商品の企画を手伝うリサーチパートナーです。
+
+Amazon Merch on Demandで販売するTシャツのテーマ候補を12個考えてください。
+
+【私が興味のあること】
+［例：コーヒー、猫、ガーデニング、読書］
+
+【想定するお客様】
+［例：30〜40代の女性／日本文化が好きな海外の人］
+
+【ほしい雰囲気】
+［例：大人が普段着にしやすい、やさしくシンプル］
+
+各案について、次の項目を表にしてください。
+1. テーマ名
+2. 想定する購入者
+3. 購入する場面・理由
+4. イラスト案
+5. 短い英語フレーズ案（日本語訳つき）
+6. Amazonで確認する英語検索語
+7. 似た商品との差別化案
+8. 権利面で確認すべき点
+
+条件：
+・需要や売上を確認していない案を「売れる」と断定しない
+・既存ブランド、作品、キャラクター、著名人、歌詞を使わない
+・特定の作家の画風を指定しない
+・最後に「分かりやすさ」「作りやすさ」「差別化」の3軸で上位3案を選ぶ</pre>
+      </div>
+      <div class="mt-4 border-l-4 border-gold bg-[#fffaf0] p-4 text-xs leading-6"><strong>ここが大事：</strong>AIの提案は答えではなく、調べるための候補です。Amazon内で似た商品、レビュー、価格帯、表現の傾向を自分の目でも確認しましょう。</div>
+    </article>
+
+    <article class="mt-12">
+      <div class="flex items-center gap-3"><span class="w-10 h-10 rounded-full bg-deep text-white grid place-items-center font-black">2</span><div><p class="text-[10px] font-black text-deep">STEP 2</p><h3 class="font-round text-lg font-black">AIにデザイン案を作ってもらう</h3></div></div>
+      <p class="mt-4 text-sm leading-7">「猫を描いて」だけだと、イメージは伝わりません。主役・表情・構図・色・印象・印刷条件まで、順番に渡すのがコツです。</p>
+      <div class="mt-5 rounded-2xl border-2 border-blush overflow-hidden">
+        <div class="bg-blush px-4 py-3 flex justify-between items-center"><p class="text-xs font-black">コピペ用｜デザイン指示プロンプト</p><button onclick="copyPrompt('prompt2')" class="bg-deep text-white text-[10px] font-black px-3 py-1.5 rounded-full">コピー</button></div>
+        <pre id="prompt2" class="prompt p-4 text-[11px] leading-6 bg-white">次の企画メモをもとに、Tシャツ印刷に使うオリジナルイラストを1案作成してください。
+
+【企画メモ】
+・テーマ：［朝のコーヒーを楽しむ猫］
+・購入してほしい人：［猫とカフェ時間が好きな30〜40代女性］
+・主役：［丸い眼鏡をかけた茶トラ猫］
+・動き：［両手でマグカップを包み、ほっとしている］
+・雰囲気：［落ち着いた、少しユーモラスな大人可愛い印象］
+・色：［生成り、テラコッタ、深緑、焦げ茶］
+・構図：［胸の中央に収まりやすい、余白のあるまとまった構図］
+・文字：［なし］
+
+【制作条件】
+・背景は透明
+・Tシャツ本体や着用モデルは描かず、印刷する絵だけにする
+・小さい商品画像でも主役が分かる、太めで整理された線
+・端を切らず、周囲に十分な余白を残す
+・指、耳、目、持ち物の形を自然にする
+・ブランド名、ロゴ、署名、透かしを入れない
+・既存作品、有名キャラクター、企業ロゴを使わない
+・特定の作家やスタジオの作風を再現しない
+・完全なオリジナルとして制作する
+
+生成後の解説文は不要です。</pre>
+      </div>
+      <p class="mt-4 text-xs leading-6 text-gray-600">1回で完成しなくても大丈夫。「主役を少し大きく」「色を2色減らして」「線を太く」など、気になる点を1つずつ直すと整いやすくなります。</p>
+    </article>
+
+    <article class="mt-12">
+      <div class="flex items-center gap-3"><span class="w-10 h-10 rounded-full bg-deep text-white grid place-items-center font-black">3</span><div><p class="text-[10px] font-black text-deep">STEP 3</p><h3 class="font-round text-lg font-black">Canvaで印刷用に整える</h3></div></div>
+      <p class="mt-4 text-sm leading-7">画像ができたら、Canvaなどで余白・大きさ・背景をチェック。商品ごとに必要なサイズや形式が変わる可能性があるため、出品時にAmazon公式の最新テンプレートを必ず確認してください。</p>
+      <ul class="mt-4 space-y-2 text-xs leading-6 bg-cream rounded-2xl p-5">
+        <li>□ 背景がきれいに透過されている</li><li>□ 小さく表示しても主役が分かる</li><li>□ 線・文字・細部がつぶれていない</li><li>□ 手足や小物に不自然な崩れがない</li><li>□ 明るい色と暗い色のTシャツで見え方を確認した</li><li>□ 最新の商品テンプレートと保存条件に合っている</li>
+      </ul>
+    </article>
+
+    <article class="mt-12">
+      <div class="flex items-center gap-3"><span class="w-10 h-10 rounded-full bg-deep text-white grid place-items-center font-black">4</span><div><p class="text-[10px] font-black text-deep">STEP 4</p><h3 class="font-round text-lg font-black">商品情報を作り、公開申請する</h3></div></div>
+      <p class="mt-4 text-sm leading-7">画像をアップロードし、商品・色・タイトル・説明文などを設定します。公開前に「誰の、どんな時間を少し楽しくする商品か」が伝わるかを確認しましょう。</p>
+      <div class="mt-5 rounded-2xl border-2 border-blush overflow-hidden">
+        <div class="bg-blush px-4 py-3 flex justify-between items-center"><p class="text-xs font-black">コピペ用｜商品ページ下書きプロンプト</p><button onclick="copyPrompt('prompt3')" class="bg-deep text-white text-[10px] font-black px-3 py-1.5 rounded-full">コピー</button></div>
+        <pre id="prompt3" class="prompt p-4 text-[11px] leading-6 bg-white">Amazon Merch on Demandに登録する商品情報の下書きを作ってください。
+
+【商品】Tシャツ
+【デザイン】［丸い眼鏡の茶トラ猫がコーヒーを楽しむイラスト］
+【購入者】［猫・コーヒー・落ち着いた服が好きな大人の女性］
+【利用場面】［休日、カフェ、家でくつろぐ時間、猫好きへの贈り物］
+【販売する国・言語】［米国／英語］
+
+次を作成してください。
+1. ブランド名候補 3案
+2. 商品タイトル候補 3案
+3. 特徴を伝える短い説明文 2本
+4. 購入者が検索しそうな自然なキーワード候補
+5. 不自然な誇張、権利侵害、商標リスクがないかの確認メモ
+
+条件：
+・検索語を不自然に詰め込まない
+・事実でない効果や人気をうたわない
+・他社名、ブランド名、作品名、キャラクター名を使わない
+・公開前に人が確認しやすいよう、英語の直後に日本語訳を添える
+・最終的な商標・規約確認は人が行う前提で書く</pre>
+      </div>
+    </article>
+  </section>
+
+  <section class="px-6 py-10 bg-cream border-y border-blush">
+    <div class="text-center"><p class="text-xs font-black text-deep">忙しいママ向け</p><h2 class="font-round text-xl font-black mt-2">3日で「1案」を形にする<br>すきま時間プラン</h2></div>
+    <div class="mt-6 space-y-3">
+      <div class="bg-white rounded-2xl p-4 border border-blush flex gap-3"><span class="font-black text-deep">DAY1</span><p class="text-xs leading-6"><strong>15分：</strong>テーマ候補を12個出し、気になる3案をAmazonで確認</p></div>
+      <div class="bg-white rounded-2xl p-4 border border-blush flex gap-3"><span class="font-black text-deep">DAY2</span><p class="text-xs leading-6"><strong>30分：</strong>1案を画像にし、気になる点を3回まで修正</p></div>
+      <div class="bg-white rounded-2xl p-4 border border-blush flex gap-3"><span class="font-black text-deep">DAY3</span><p class="text-xs leading-6"><strong>30分：</strong>Canvaで整え、商品情報の下書きを作る</p></div>
+    </div>
+    <p class="mt-5 text-center text-sm font-black leading-7">完璧な10商品より、<br><span class="marker">確認できる1商品を完成させる。</span><br>最初の目標はここで十分です。</p>
+  </section>
+
+  <section class="px-6 py-10">
+    <h2 class="font-round text-xl font-black text-center">公開前の「守る」チェック</h2>
+    <div class="mt-6 bg-[#fff7e6] border border-[#f0d59c] rounded-3xl p-5">
+      <p class="text-sm font-black">AIが作れたもの ＝ 販売してよいもの、ではありません。</p>
+      <ul class="mt-4 text-xs leading-7 space-y-1"><li>□ 有名キャラクター、アニメ、芸能人を使っていない</li><li>□ ブランドロゴ、商品名、商標語を使っていない</li><li>□ 歌詞・名言・他人の作品を転用していない</li><li>□ 特定の作家の作風をまねていない</li><li>□ Amazonの最新コンテンツポリシーを確認した</li><li>□ AI出力を拡大し、形や文字の崩れを確認した</li></ul>
+    </div>
+    <p class="mt-4 text-[10px] leading-5 text-gray-500">本ガイドは一般的な手順の紹介であり、審査通過や収益を保証するものではありません。規約・料金・ロイヤリティ・対応地域・画像条件は変更される場合があります。利用前に各サービスの公式情報をご確認ください。</p>
+  </section>
+
+  <section class="relative px-6 pt-14 pb-12 bg-gradient-to-b from-[#fff4ef] to-white text-center border-t border-blush">
+    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gold text-white rounded-full px-5 py-2 shadow font-black text-[11px] whitespace-nowrap">ここから先はLINE限定 🎁</div>
+    <p class="text-xs font-black text-deep tracking-wider">自分で自由に使えるお金も増やしたいママへ</p>
+    <h2 class="font-round text-2xl font-black leading-9 mt-2">『おうちワーク始め方ガイド』<br><span class="text-deep">5大特典を無料プレゼント中</span></h2>
+    <p class="mt-3 text-xs leading-6 text-gray-600">何を選び、どうAIに頼み、SNSから収益につなげるか。<br>迷いやすい順番を1冊にまとめた<br><strong>『AIマネタイズの教科書』</strong>をお届けします。</p>
+    <img src="assets/ai-fukugyo-premium-cta.png" alt="AIマネタイズの教科書" class="w-full rounded-2xl mt-6 shadow-md border border-blush" onerror="this.style.display='none'">
+
+    <div class="mt-6 text-left bg-white rounded-3xl p-5 border border-blush shadow-sm">
+      <p class="text-center text-xs font-black text-deep mb-4">教科書の中身を少しだけご紹介！</p>
+      <div class="space-y-3">
+        <div class="flex gap-3 items-start"><span class="w-7 h-7 rounded-full bg-deep text-white grid place-items-center text-xs font-black shrink-0">1</span><div><p class="text-xs font-black">第1章｜今、始めやすいAIマネタイズの選び方</p><p class="text-[10px] text-gray-500 mt-1">時間・得意・初期費用から、自分に合う入口を整理</p></div></div>
+        <div class="flex gap-3 items-start"><span class="w-7 h-7 rounded-full bg-deep text-white grid place-items-center text-xs font-black shrink-0">2</span><div><p class="text-xs font-black">第2章｜ChatGPT収益化プロンプト集</p><p class="text-[10px] text-gray-500 mt-1">アイデア出しから発信まで、迷った時にそのまま使える</p></div></div>
+        <div class="flex gap-3 items-start"><span class="w-7 h-7 rounded-full bg-deep text-white grid place-items-center text-xs font-black shrink-0">3</span><div><p class="text-xs font-black">第3章｜AIマネタイズ実践テンプレート</p><p class="text-[10px] text-gray-500 mt-1">考える順番を型にして、今日やることを見える化</p></div></div>
+        <div class="flex gap-3 items-start"><span class="w-7 h-7 rounded-full bg-deep text-white grid place-items-center text-xs font-black shrink-0">4</span><div><p class="text-xs font-black">第4章｜収益化に役立つ生成AIツール3選</p><p class="text-[10px] text-gray-500 mt-1">初心者が使い分けで迷わないための比較つき</p></div></div>
+        <div class="flex gap-3 items-start"><span class="w-7 h-7 rounded-full bg-deep text-white grid place-items-center text-xs font-black shrink-0">5</span><div><p class="text-xs font-black">第5章｜AI×SNSで収益につながったリアル事例</p><p class="text-[10px] text-gray-500 mt-1">遠回りした経験も含め、行動の流れを具体的に紹介</p></div></div>
+      </div>
+    </div>
+
+    <div class="mt-6 bg-[#effaf2] border border-[#ccebd4] rounded-2xl p-4 text-left"><p class="text-xs font-black text-line">登録後に分かること</p><p class="text-[11px] leading-6 mt-1">「私なら何から始める？」を考えられるように、初心者向けの順番でご案内します。AIに詳しくなくても大丈夫です。</p></div>
+
+    <a href="https://sub.aione.co.jp/line/open/QFSiLvkqYbDv?mtid=8XSHI7buqP4T" target="_blank" rel="noopener noreferrer" class="pulse block mt-6 bg-line text-white rounded-2xl px-5 py-5 shadow-lg font-black text-sm">LINEで5大特典を無料で受け取る<br><span class="text-[10px] font-medium">登録は約30秒・受け取り方をLINEでご案内します</span></a>
+    <p class="mt-4 text-[10px] text-gray-500 leading-5">配布内容や期間は予告なく変更・終了する場合があります。<br>無理な勧誘を目的としたものではありません。</p>
+  </section>
+
+  <footer class="bg-ink text-white/60 text-center px-5 py-8 text-[10px] leading-5">
+    <a href="https://www.instagram.com/mina_ai_fukugyo/" target="_blank" rel="noopener noreferrer" class="text-white font-bold">Instagram @mina_ai_fukugyo</a>
+    <p class="mt-2">みな｜AI×SNSで在宅収入を叶える主婦</p>
+    <p class="mt-5">© 2026 みな. All Rights Reserved.</p>
+  </footer>
+</main>
+
+<script>
+  function copyPrompt(id){
+    const text=document.getElementById(id).innerText;
+    const done=()=>{const t=document.getElementById('toast');t.classList.remove('opacity-0','-translate-y-3');t.classList.add('opacity-100');setTimeout(()=>{t.classList.add('opacity-0','-translate-y-3');t.classList.remove('opacity-100')},1600)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done)}else{const a=document.createElement('textarea');a.value=text;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}
+  }
+</script>
+</body>
+</html>
